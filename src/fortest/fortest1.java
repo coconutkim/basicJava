@@ -7,7 +7,7 @@ public class fortest1{
 			System.out.println(i);
 			sum+=i;//sum=sum+i;
 		}
-		System.out.println('sum of 1~5'+sum);
-		System.out.println('sum of 1~5:%d\n'+sum)
+		System.out.println("sum of 1~5"+sum);
+		System.out.println("sum of 1~5:%d\n"+sum)
 	}
 }

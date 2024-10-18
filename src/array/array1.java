@@ -30,11 +30,11 @@ public class array1 {
 		System.out.println(arr2[3]);
 		
 		int sum=0;
-		int arr3[]= {100,200,300,400,500}
+		int arr3[]= {100,200,300,400,500};
 		for(int i=0;i<arr3.length;i++) {
 			System.out.println(arr3[i]);
 			System.out.println(arr3[i]);
-			sum+=arr[i] // sum=sum+arr[i];			
+			sum+=arr[i]; // sum=sum+arr[i];
 		}
 		System.out.println(sum);
 		

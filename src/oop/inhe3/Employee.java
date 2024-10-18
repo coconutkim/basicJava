@@ -10,7 +10,7 @@ public class Employee {
     this.payPerMonth = payPerMonth; // 월 급여
     this.commision = commision; // 보너스
     }
-    int calcTotalPay{
+    int calcTotalPay(){
         int totalPay = 12 * payPerMonth + commision;
         return totalPay;
     }
