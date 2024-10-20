@@ -1,7 +1,5 @@
 package oop_sequel.oop2;
 
-
-
 public class Student extends Human{
 //	private String name; // 필드
 	int grade; // 학년

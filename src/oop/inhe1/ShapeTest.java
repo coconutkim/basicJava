@@ -6,11 +6,9 @@ public class ShapeTest {
         int height = 20;
 
         Rectangle rec = new Rectangle();
-        rec.calcRecTangle(width, height);
-        rec.printArea();
+        rec.calcRectangle(width, height);
 
         Triangle tri = new Triangle();
         tri.calcTriangle(width,height);
-        tri.printArea();
     }
 }
