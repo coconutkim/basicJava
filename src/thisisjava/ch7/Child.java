@@ -1,12 +1,24 @@
 package thisisjava.ch7;
 
 public class Child extends Parent{
-    public int studentNo;
+//    public int studentNo;
+//
+//    public Child(String name, int studentNo){
+////        this.name = name;
+//        super(name);
+//        this.studentNo = studentNo;
+//    }
 
-    public Child(String name, int studentNo){
-//        this.name = name;
-        super(name);
-        this.studentNo = studentNo;
+    public String name;
+
+    public Child(){
+        this("hoshi");
+        System.out.println("Child() call");
+    }
+
+    public Child(String name){
+        this.name = name;
+        System.out.println("Child(String name) call");
     }
 }
 

@@ -12,7 +12,7 @@ public class Parent {
 
     public Parent(){
         this("korea");
-        System.out.println("Pareant() call");
+        System.out.println("Parent() call");
     }
 
     public Parent(String nation){
