@@ -1,4 +1,4 @@
-package thisisjava;
+package thisisjava.ch6;
 
 public class Account {
 //    balance 필드를 가진다

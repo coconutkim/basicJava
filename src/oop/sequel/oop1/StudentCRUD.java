@@ -1,4 +1,4 @@
-package oop_sequel.oop1;
+package oop.sequel.oop1;
 
 import java.util.Scanner;
 
@@ -42,7 +42,7 @@ public class StudentCRUD {
 	}
 	
 	public void studentPrint() {
-		System.out.println(st);
+//		System.out.println(st);
 //		System.out.println(st.getName());
 //		System.out.println(st.getGrade());
 		

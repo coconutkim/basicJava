@@ -1,6 +1,8 @@
-package oop_sequel.oop2;
+package oop.sequel.oop1;
 
-public class Student extends Human{
+import oop.sequel.oop2.Human;
+
+public class Student extends Human {
 //	private String name; // 필드
 	int grade; // 학년
 	// overloading (중복 메소드)

@@ -1,4 +1,4 @@
-package oop_sequel.oop2;
+package oop.sequel.oop2;
 
 import java.util.Scanner;
 

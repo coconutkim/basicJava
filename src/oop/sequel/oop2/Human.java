@@ -1,4 +1,4 @@
-package oop_sequel.oop2;
+package oop.sequel.oop2;
 
 public class Human{
 	public String name; //  속성, 필드, 맴버

@@ -1,4 +1,4 @@
-package thisisjava;
+package thisisjava.ch6;
 
 public class Account2 {
 //    키보드로부터 계좌 정보를 입력받아 계좌를 관리하는 프로그램

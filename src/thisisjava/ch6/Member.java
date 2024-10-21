@@ -1,4 +1,4 @@
-package thisisjava;
+package thisisjava.ch6;
 
 public class Member {
     // 필드 선언

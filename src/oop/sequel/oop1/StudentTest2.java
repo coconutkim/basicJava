@@ -1,4 +1,4 @@
-package oop_sequel.oop1;
+package oop.sequel.oop1;
 //object oriented programming
 
 public class StudentTest2 {

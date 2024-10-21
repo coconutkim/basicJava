@@ -1,4 +1,4 @@
-package oop_sequel.oop2;
+package oop.sequel.oop2;
 
 public class StudentService {
 	final int MAX_SIZE = 50;
