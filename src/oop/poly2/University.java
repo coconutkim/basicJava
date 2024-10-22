@@ -1,7 +1,7 @@
 package oop.poly2;
 
 public class University extends Student {
-    private int courses;
+    private final int courses;
 
     public University(String name, int grade, int courses,
                       String gender, int age){
@@ -20,5 +20,10 @@ public class University extends Student {
 
     public int getCourses() {
         return courses;
+    }
+
+    @Override
+    public String getTeacher() {
+        return "mr.julian";
     }
 }

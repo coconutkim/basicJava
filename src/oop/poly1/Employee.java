@@ -1,6 +1,7 @@
 package oop.poly1;
 
 public class Employee {
+
     protected String name;
     protected String job;
 
@@ -21,16 +22,16 @@ public class Employee {
     }
 
     public void getEmpInfo(Employee e) {
+        Research res;
         if (e instanceof Account) {
             System.out.println("position: " + e.getJob());
         } else if (e instanceof Research) {
-            Research res = (Research) e;
+            res = (Research) e;
             System.out.println("job: " + res.getPosition());
         }
+    }
 
-        public void getEmpInfo (Research e){
-            if (e instanceof Re)
-                System.out.println("position: " + res.get);
-        }
+    public void getEmpInfo (Research res){
+        System.out.println("position: " + res.getPosition());
     }
 }

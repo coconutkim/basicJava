@@ -1,7 +1,5 @@
 package oop.sequel.oop1;
 
-import oop.sequel.oop2.Human;
-
 public class Student extends Human {
 //	private String name; // 필드
 	int grade; // 학년

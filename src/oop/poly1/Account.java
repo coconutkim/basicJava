@@ -5,7 +5,4 @@ public class Account extends Employee{
         super.name = name;
         super.job = job;
     }
-    public void disp(){
-        System.out.println(super.name);
-    }
 }

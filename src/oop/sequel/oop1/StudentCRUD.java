@@ -2,8 +2,6 @@ package oop.sequel.oop1;
 
 import java.util.Scanner;
 
-import oop2.Student;
-
 public class StudentCRUD {
 	Scanner sc;
 	Student st;

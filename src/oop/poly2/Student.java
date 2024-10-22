@@ -1,12 +1,13 @@
 package oop.poly2;
 
 public abstract class Student extends Person {
+
     protected String name;
     protected int grade;
 
-    public Student(){
-        System.out.println("student parent constructor calling");
-    }
+//    public Student(){
+//        System.out.println("student parent constructor calling");
+//    }
 
     public String getName() {
         return name;
