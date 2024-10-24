@@ -30,11 +30,11 @@ public class Test {
                 System.out.println("result: " + res);
                 flag = false;
 
-            } catch (NumberFormatException e){
-                    System.out.println(e.getMessage());
-                    flag = true;
+            } catch (NumberFormatException e) {
+                System.out.println(e.getMessage());
+                flag = true;
 
-            }catch (MyException e){
+            } catch (MyException e) {
                 System.out.println(e.getMessage());
                 break;
             }

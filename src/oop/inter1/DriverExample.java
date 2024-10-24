@@ -14,8 +14,8 @@ public class DriverExample {
 //        convert type automatically
 //        >> call overriding method
 //        >> polymorphism
-        driver.drive(bus);;
-        driver.drive(taxi);;
+        driver.drive(bus);
+        driver.drive(taxi);
     }
 }
 
