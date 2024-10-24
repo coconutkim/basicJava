@@ -8,7 +8,7 @@ import java.io.InputStream;
 public class ReadTest2 {
     public static void main(String[] args){
         try {
-            InputStream is = new FileInputStream("G:/내 드라이브/temp/test1.db");
+            InputStream is = new FileInputStream("G:/내 드라이브/temp/test.db");
 
             byte[] data = new byte[100]; //비어있는 배열
 
