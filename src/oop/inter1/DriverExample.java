@@ -33,3 +33,6 @@ public class DriverExample {
 //요금이 없으면 충전한다
 //요금을 충전하면 잔액이 채워진다
 //충전이 완료되면 결과를 출력한다
+
+//탑승 board
+//지불 pay
