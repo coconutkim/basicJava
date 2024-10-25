@@ -1,4 +1,4 @@
-package inputOutput;
+package io;
 
 import java.io.FileWriter;
 import java.io.IOException;
