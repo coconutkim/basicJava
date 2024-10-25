@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Score {
     @SuppressWarnings("unchecked")
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
         int count = 1;
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -28,11 +28,13 @@ public class Score {
                 System.out.println("Invalid input. Please enter a number");
             }
         } while (count <= 10); // count가 10이 될 때까지 반복
+
         output.println(scoreData);
         in.close();
         output.close(); //실행한 것을 닫아줘야 파일에 저장이 되어 나타난다
         System.out.println("ouput of score");
 //        System.out.println(scoreData);
+
     }
 
     // 숫자인지 확인하는 메소드
