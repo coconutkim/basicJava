@@ -29,11 +29,15 @@ public class UserList2 {
         System.out.println();
 
         FileInputStream fis = new FileInputStream("src/io/test/userlist2.txt");
+        //바이트 스트림을 객체 형태로 변환
         ObjectInputStream ois = new ObjectInputStream(fis);
 
         User2 us1 = (User2) ois.readObject();
         User2 us2 = (User2) ois.readObject();
         User2 us3 = (User2) ois.readObject();
+        //기본저긍로 object 타입으로 객체 반환
+        //사용자가 원하는 클래스 타입으로 형변환을 한다
+        //이렇게 복원된 객체는 User2 클래스의 필드와 메서드를 사용할 수 있게 됩니다
 
         ois.close();
         fis.close();

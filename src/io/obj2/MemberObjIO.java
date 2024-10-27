@@ -27,7 +27,7 @@ public class MemberObjIO {
         }
 
         while (true) {
-            System.out.print("1. enrollment / 2. print / 3. close = ");
+            System.out.print("1. enrollment | 2. print | 3. close = ");
             int x = System.in.read() - 48; //아스키 코드 값을 읽는다
             System.in.read();
 //            System.in.read();
@@ -51,7 +51,7 @@ public class MemberObjIO {
 //                    mem = v.get(i);
                     mem = v.elementAt(i);
 //                    v.get(i); 앞에 (Member)라고 표시를 해야 한다
-//                    그런데 이전에 필드 선언시 그 내용을 넣어서 생략한다
+//                    그런데 이전에 필드 선언 시 그 내용을 넣어서 생략한다
 //                    mem.display();
                     System.out.println(mem);
                 }

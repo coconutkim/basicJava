@@ -2,6 +2,8 @@ package io.test;
 
 import java.io.Serializable;
 
+//Serializable 인터페이스 구현
+//객체의 모든 상태를 직렬화한다
 public class User2 implements Serializable {
     String name;
     int age;
