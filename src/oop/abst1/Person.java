@@ -1,6 +1,7 @@
 package oop.abst1;
 
 public class Person {
+
     protected String gender;
     protected int age;
 

@@ -7,12 +7,9 @@ public class AbstractMethodExample {
 
         Cat cat = new Cat();
         cat.sound();
-
-        animalSound(new Dog());
-        animalSound(new Cat());
     }
 
-    public static void animalSound(Animal animal) {
+    public static void animalSound(oop.abst.Dog animal) {
         animal.sound();
     }
 }
