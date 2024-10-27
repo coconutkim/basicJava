@@ -1,17 +1,21 @@
 package io.test;
 
-public class User {
+import java.io.Serializable;
+
+public class User2 implements Serializable {
     String name;
     int age;
     String phone;
 
-    public User(String name, int age, String phone){
+    public User2(String name, int age, String phone) {
         this.name = name;
         this.age = age;
         this.phone = phone;
     }
 
-    public String getUserInfo(){
+    @Override
+    public String toString(){
         return "name: "+name+" | age: "+age+" | phone: "+phone;
     }
 }
+

@@ -11,7 +11,7 @@ public class ObjectInputOutput {
     public static void main(String[] args) throws Exception {
 
         //fos에 oos 보조스트림 연결
-        FileOutputStream fos = new FileOutputStream("C:/temp_j/object.dat");
+        FileOutputStream fos = new FileOutputStream("src/io/obj1/object.txt");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
 
         //파일에 저장할 객체 생성
@@ -32,7 +32,7 @@ public class ObjectInputOutput {
         //따라서 데이터 완전 출력을 위해 버퍼를 비우기 위한 작업 필요
 
         //파일을 읽어오는 작업 실행
-        FileInputStream fis = new FileInputStream("C:/temp_j/object.dat");
+        FileInputStream fis = new FileInputStream("src/io/obj1/object.txt");
         ObjectInputStream ois = new ObjectInputStream(fis);
 
         //파일을 읽고 역직렬화해서 객체로 복원
