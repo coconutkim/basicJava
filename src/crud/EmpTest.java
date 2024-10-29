@@ -5,13 +5,12 @@ import java.util.Iterator;
 
 public class EmpTest {
     public static void main(String[] args){
-        //매개변수가 없는 기본 생성자 메소드
         EmpListService empListService = new EmpListService();
         EmpMapService empMapService = new EmpMapService();
         Regular regular1 = new Regular(190,"java",100,100);
         Regular regular2 = new Regular(65, "java", 52,65);
         Regular regular3 = new Regular(87,"java",88,21);
-        Employee temporary = new Temporary(6500,"kelly",80,98,54);
+        Temporary temporary = new Temporary(6500,"kelly",80,98,54);
 
         empListService.addEmployee(regular1);
         empListService.addEmployee(regular2);
@@ -25,6 +24,12 @@ public class EmpTest {
         //findEmployee 메소드의 반환 타입이 ArrayList
         ArrayList<Employee> arrayList = empListService.findEmployee("java");
         Iterator<Employee> iterator = arrayList.iterator();
+        //이터레이터는 컬렉션에 저장된 요소들을 순차적으로 읽어오기 위해 사용
+//        hasNext()
+//        읽어올 객체가 남아 있으면 true를 리턴, 없으면 false를 리턴
+//        next()
+//        컬렉션에서 하나의 객체를 읽어온다
+//        next()를 호출하기 전에 hasNext()를 통해 읽어올 다음 요소가 있는지 먼저 확인하는 것이 좋다
         while (iterator.hasNext()){
             Employee employee = iterator.next();
             String string = employee.toString();

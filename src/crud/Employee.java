@@ -25,7 +25,7 @@ public class Employee {
         return payPerMonth;
     }
 
-    public int getCommision() {
+    public int getCommission() {
         return commision;
     }
 
@@ -36,6 +36,8 @@ public class Employee {
 
     @Override
     public String toString() {
+        //객체의 데이터를 문자열 형태로 표현
+        //이 메서드가 없는 경우 객체의 고유한 메모리 주소를 출력
         return "Employee{" +
                 "empNo=" + empNo +
                 ", name='" + name +

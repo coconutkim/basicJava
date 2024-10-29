@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class EmpListService {
+    //Create, Read/Retrieve, Update, and Delete
+    //the fundamental operations carried out on persistent storage.
     //CRUD
     private ArrayList<Employee> list;
 
@@ -11,7 +13,7 @@ public class EmpListService {
         list = new ArrayList<Employee>();
     }
 
-    //사원 정보 추가
+    //add employee info
     public void addEmployee(Employee employee) {
         boolean flag = false;
         for (Employee emp : list) {
@@ -23,7 +25,7 @@ public class EmpListService {
         }
         if (flag == false) { //목록에 없으면
             list.add(employee); //사원을 추가
-            System.out.println(employee.getEmpNo() + " is saved");
+            System.out.println(employee.getEmpNo() + " has been saved");
         }
     }
 
@@ -40,7 +42,7 @@ public class EmpListService {
             if (emp.getEmpNo() == empNo) {
                 flag = true;
                 list.remove(empNo); //사원 정보 삭제
-                System.out.println(emp.getEmpNo() + " is deleted");
+                System.out.println(emp.getEmpNo() + " has been deleted");
                 return;
             }
         }
@@ -59,7 +61,7 @@ public class EmpListService {
             if (list.get(i).getEmpNo() == employee.getEmpNo()) {
                 flag = true;
                 list.set(i, employee); //e를 i라는 번호로 업데이트한다
-                System.out.println(employee.getName() + "'s info has updated");
+                System.out.println(employee.getName() + "'s info has been updated");
                 return;
             }
         }
@@ -77,7 +79,9 @@ public class EmpListService {
         //private ArrayList<Employee> list;
         for (Employee employee : list) { //기존의 사원 리스트에서
             if (employee.getName().equals(name)) {
+                //기존의 사원 리스트에서 가져온 이름이 찾는 이름과 같으면
                 arrayList.add(employee);
+                //출력할 리스트에 추가해서 사용자가 찾는 이름을 반환
             }
         }
         return arrayList;
